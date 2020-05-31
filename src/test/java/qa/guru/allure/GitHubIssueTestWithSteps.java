@@ -18,7 +18,7 @@ import static io.qameta.allure.Allure.step;
 
 @Feature("Work with issues by steps")
 public class GitHubIssueTestWithSteps {
-    private final static int ISSUE_NUMBER = 1;
+    private final static int ISSUE_NUMBER = 8;
     private final BasicSteps steps = new BasicSteps();
 
     @Before // <= this is JUnit notation
