@@ -16,7 +16,7 @@ public class fileReadTest {
         @DisplayName("This checks if string returned from file is correct")
         public void testString(){
                 String txtToken = "";
-                txtToken = txtFile.getStringFromFile("D:\\code\\qa-guru\\allure-exercise\\src\\test\\java\\qa\\guru\\allure\\token.txt");
+                txtToken = txtFile.getStringFromFile("D:\\code\\qa-guru-allure-exercise\\src\\test\\java\\qa\\guru\\allure\\token.txt");
                 System.out.println("This is what we got:" + txtToken);
                 assertEquals("AAAAAAAAABBBBBBBBCCCCCCCCCCCCDDDDDDDDDDDD", txtToken);
         }

@@ -12,7 +12,7 @@ public class ApiSteps {
     public ApiSteps(){
         String token = "";
         final fileReadHelper txtFile = new fileReadHelper();
-        token = txtFile.getStringFromFile("D:\\code\\qa-guru\\allure-exercise\\github_oauth_token.secret");
+        token = txtFile.getStringFromFile("D:\\code\\qa-guru-allure-exercise\\github_oauth_token.secret");
         final String finalToken = token;
         System.out.println("Read token: " + finalToken);
         final OkHttpClient client = new OkHttpClient.Builder()
